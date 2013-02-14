@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import gnu.getopt.Getopt;
 
-public class Command {
+public class ${mainClass} {
 	private String conffilename;
 	void run() {
 
@@ -20,7 +20,7 @@ public class Command {
 		System.err.println("Usage: " + name + " [-c <configuration file>]");
 	}
 
-	public Command(String[] args) {
+	public ${mainClass}(String[] args) {
 		int c;
 
 		Getopt go = new Getopt("${artifactId}", args, "c:");
@@ -85,7 +85,7 @@ public class Command {
 	 */
 	public static void main(String[] args) {
 
-		Command cmd = new Command(args);
+		${mainClass} cmd = new ${mainClass}(args);
 		cmd.run();
 	}
 }

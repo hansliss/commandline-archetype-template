@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="commandline-project">
+  <requiredProperties>
+    <requiredProperty key="mainClass" >
+      <defaultValue>Command</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
   <fileSets>
     <fileSet filtered="true" encoding="UTF-8">
       <directory>deployment</directory>

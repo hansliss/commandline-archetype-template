@@ -44,7 +44,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>${groupId}.Command</mainClass>
+                <mainClass>${groupId}.${mainClass}</mainClass>
               </manifest>
             </archive>
           </configuration>
