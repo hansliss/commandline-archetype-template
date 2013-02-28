@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nu.liss</groupId>
   <artifactId>commandline-project</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
   <name>Archetype - commandline-project</name>
   <url>http://maven.apache.org</url>
 </project>
