@@ -44,7 +44,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>${groupId}.${mainClass}</mainClass>
+                <mainClass>${package}.${mainClass}</mainClass>
               </manifest>
             </archive>
           </configuration>
