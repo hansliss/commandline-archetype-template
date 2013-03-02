@@ -70,6 +70,7 @@ public class ${mainClass} {
 			infile = new FileInputStream(conffilename);
 			config.load(infile);
 			// TODO Fetch parameter values here, and move to instance vars
+			// i.e. if bletch is an instance variable used for configuration:
 			// bletch = config.getProperty("foo.bar.bletch", bletch);
 		} catch (FileNotFoundException e) {
 			System.err.println("File " + conffilename + " doesn't exist.");
