@@ -64,12 +64,13 @@ public class ${mainClass} {
 	}
 
 	private boolean readconf(String conffilename) {
-		Properties foo = new Properties();
+		Properties config = new Properties();
 		InputStream infile;
 		try {
 			infile = new FileInputStream(conffilename);
-			foo.load(infile);
+			config.load(infile);
 			// TODO Fetch parameter values here, and move to instance vars
+			// bletch = config.getProperty("foo.bar.bletch", bletch);
 		} catch (FileNotFoundException e) {
 			System.err.println("File " + conffilename + " doesn't exist.");
 			return false;
