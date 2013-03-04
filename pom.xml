@@ -1,20 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>nu.liss</groupId>
   <artifactId>commandline-project</artifactId>
-  <version>1.8-SNAPSHOT</version>
+  <version>1.8</version>
   <name>Archetype - commandline-project</name>
   <url>https://svn.liss.nu/artifactory/ext-release-local</url>
   <scm>
     <connection>
-      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
+      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </connection>
     <developerConnection>
-      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
+      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </developerConnection>
     <url>
-      https://svn.liss.nu/viewvc/projects/commandline-archetype-template/
+      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </url>
   </scm>
   <build>
