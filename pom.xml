@@ -2,18 +2,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nu.liss</groupId>
   <artifactId>commandline-project</artifactId>
-  <version>1.8</version>
+  <version>1.8-SNAPSHOT</version>
   <name>Archetype - commandline-project</name>
   <url>https://svn.liss.nu/artifactory/ext-release-local</url>
   <scm>
     <connection>
-      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </connection>
     <developerConnection>
-      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </developerConnection>
     <url>
-      scm:svn:scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
+      https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.8
     </url>
   </scm>
   <build>
