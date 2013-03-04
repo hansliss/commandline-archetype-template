@@ -12,9 +12,7 @@
     <developerConnection>
       scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
     </developerConnection>
-    <url>
-      https://svn.liss.nu/svn/projects/commandline-archetype-template
-    </url>
+    <url>https://svn.liss.nu/viewvc/projects/commandline-archetype-template/</url>
   </scm>
   <build>
     <plugins>
