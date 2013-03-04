@@ -3,7 +3,32 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nu.liss</groupId>
   <artifactId>commandline-project</artifactId>
-  <version>1.7</version>
+  <version>1.8-SNAPSHOT</version>
   <name>Archetype - commandline-project</name>
-  <url>http://maven.apache.org</url>
+  <url>https://svn.liss.nu/artifactory/ext-release-local</url>
+  <scm>
+    <connection>
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
+    </connection>
+    <developerConnection>
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
+    </developerConnection>
+    <url>
+      https://svn.liss.nu/viewvc/projects/commandline-archetype-template/
+    </url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <tagBase>
+            scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags
+          </tagBase>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
