@@ -2,17 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nu.liss</groupId>
   <artifactId>commandline-project</artifactId>
-  <version>1.9</version>
+  <version>1.10-SNAPSHOT</version>
   <name>Archetype - commandline-project</name>
   <url>https://svn.liss.nu/artifactory/ext-release-local</url>
   <scm>
     <connection>
-      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.9
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
     </connection>
     <developerConnection>
-      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.9
+      scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/trunk
     </developerConnection>
-    <url>scm:svn:https://svn.liss.nu/svn/projects/commandline-archetype-template/tags/commandline-project-1.9</url>
+    <url>https://svn.liss.nu/viewvc/projects/commandline-archetype-template/</url>
   </scm>
   <build>
     <plugins>
