@@ -8,12 +8,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+import nu.liss.Testing.Foobar;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import gnu.getopt.Getopt;
 
 public class ${mainClass} {
+	private Logger logger = LoggerFactory.getLogger(${mainClass}.class);
 	private String conffilename;
 	void run() {
-
+		logger.debug("Running ${package}.${mainClass}");
 	}
 
 	public void usage(String name) {
